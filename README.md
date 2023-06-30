@@ -1,7 +1,7 @@
 # java-lab
 //difference B/W global variable and local variable 
 
-1-- code 
+==1-- code 
 
 public class PI
 {
@@ -31,7 +31,7 @@ symbol:   variable b
 1 error
 
 
-2-- code 
+==2-- code 
 public class PI
 {
     static int a=10;
