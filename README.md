@@ -52,3 +52,70 @@ output:
 10
 20
 10
+
+*WRITE THE PROGRAME FOR:
+1) PRE INCREAMENT
+2) POST INCREAMENT
+3) PRE DICREMENT
+4) POST DICREAMENT
+
+
+==1) PRE INCREAMENT
+
+class pi {
+    public static void main(String[] args) {
+        int a=7;
+        ++a;
+        System.out.println(a);
+    }
+
+    OUTPUT
+    8
+
+
+
+ ==2) POST INCREAMENT
+
+
+   class pi {
+    public static void main(String[] args) {
+        int a=7;
+       System.out.println(a++);
+        System.out.println(a);
+    }
+}
+
+OUTPUT
+7
+8
+
+
+
+==3) PRE DICREMENT
+
+class pi {
+    public static void main(String[] args) {
+        int a=7;
+        --a;
+        System.out.println(a);
+    }
+    }
+
+OUTPUT
+6
+
+
+
+==4) POST DICREAMENT
+
+class pi {
+    public static void main(String[] args) {
+        int a=7;
+       System.out.println(a--);
+        System.out.println(a);
+    }
+}
+
+OUTPUT
+7
+6
