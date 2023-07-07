@@ -196,3 +196,19 @@ Output
 Before conversion: 166.66
 After conversion into long type: 166
 After conversion into int type: 166
+
+
+
+
+==even or odd using ternary operator==
+
+public class pi{
+    public static void main(String[] args) {
+        int a=1;
+        
+       System.out.println(a%2==0?"even":"odd");
+    }
+}
+
+==OUTPUT==
+odd
