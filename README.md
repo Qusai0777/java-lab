@@ -212,3 +212,15 @@ public class pi{
 
 ==OUTPUT==
 odd
+
+
+
+
+==The if Statement==
+* Use the if statement to specify a block of Java code to be executed if a condition is true.
+
+  *SYNTAX*
+
+  if (condition) {
+  // block of code to be executed if the condition is true
+}
