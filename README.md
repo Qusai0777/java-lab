@@ -235,14 +235,109 @@ if (condition) {
   // block of code to be executed if the condition is true
 } else {
   // block of code to be executed if the condition is false
+}
 
 
 
+QUESTIONS :(WITHOUT USING SCANNER FUNCTION : )
+
+Q1- Take values of length and breadth of a rectangle from user and check if it is square or
+not.
+Q2 -Write a program to check whether a entered character is lowercase ( a to z ) or
+uppercase ( A to Z ).
+Q3- Take two integer and check which is the greatest number.
+Q4- Take input of age of 3 people and determine oldest and youngest among them. 
+
+
+ANSWER :
+
+ANS--1)
+CODE---
+
+public class main {
+    public static void main(String[] args) {
+     
+        int length =40;
+        
+
+        int breadth =47;
+       
+
+        if (length == breadth) {
+            System.out.println("The rectangle is a square.");
+        } else {
+            System.out.println("The rectangle is not a square.");
+        }
+    }
+}
+
+ANS--2)
+CODE---
+
+public class main {
+    public static void main(String[] args) {
+        
+        char ch='A';
+
+        if (ch >= 97 && ch <= 122) {
+            System.out.println("The character is lowercase.");
+        } else if (ch >= 65 && ch <= 90) {
+            System.out.println("The character is uppercase.");
+        } else {
+            System.out.println("The character is neither lowercase nor uppercase.");
+        }
+    }
+
+    
+ ANS--3)
+ CODE---
+
+public class main {
+    public static void main(String[] args) {
+        int number1 = 80;
+        int number2 = 85;
+
+        if (number1 > number2) {
+            System.out.println(number1 + " is the greatest number.");
+        } else if (number2 > number1) {
+            System.out.println(number2 + " is the greatest number.");
+        } else {
+            System.out.println("Both numbers are equal.");
+        }
+    }
+}
 
 
 
+ ANS--4)
+ CODE---
 
+ public class main {
+    public static void main(String[] args) {
+        int age1 = 25;
+        int age2 = 32;
+        int age3 = 20;
 
+        int oldest = age1;
+        int youngest = age1;
 
-  
+        if (age2 > oldest) {
+            oldest = age2;
+        }
+
+        if (age3 > oldest) {
+            oldest = age3;
+        }
+
+        if (age2 < youngest) {
+            youngest = age2;
+        }
+
+        if (age3 < youngest) {
+            youngest = age3;
+        }
+
+        System.out.println("Oldest person's age: " + oldest);
+        System.out.println("Youngest person's age: " + youngest);
+    }
 }
